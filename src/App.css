@@ -1,0 +1,34 @@
+/* Style the navbar */
+nav {
+  background-color: #282c34;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+/* Style the list */
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+/* Style links */
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+/* Change link color on hover */
+li a:hover {
+  background-color: #555;
+}
+
+
+ .home{
+   padding: 150px;
+   margin: 50px;
+ }
+ 
+ .about{
+   margin: 50px;
+ }
