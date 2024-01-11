@@ -1,0 +1,20 @@
+.nav{
+    z-index: 3;
+    background-color: #000;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+    position: sticky;
+}
+
+.logo{
+    font-size: 1.5em;
+    font-weight:bold;
+    align-items:flex-start;
+    color: beige;
+    margin-right: 800px;
+    padding-top: 10px;
+
+}

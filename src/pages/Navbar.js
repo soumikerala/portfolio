@@ -1,10 +1,11 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import './Navbar.css'; 
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav>
-    
+    <nav className="navbar">
+      <div className="logo">Portfolio</div>
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -13,16 +14,14 @@ function Navbar() {
           <Link to="/about">About</Link>
         </li>
         <li>
+          <Link to="/Skills">Skills</Link>
+        </li>
+        <li>
           <Link to="/Contact">Contact</Link>
         </li>
-      
-      
       </ul>
-   </nav>
-    
-   
-  )
-}
-
+    </nav>
+  );
+};
 
 export default Navbar;

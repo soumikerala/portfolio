@@ -1,0 +1,35 @@
+.home{
+    height:100vh;
+   
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding-left: 80px;
+}
+h2{
+    color:crimson;
+    font-size:50px;
+    padding:0px;
+}
+h1{
+    font-size: 70px;
+}
+img{
+    height: 350px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 150px;
+
+}
+.btn{
+    background-color: #f02020;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}

@@ -1,0 +1,84 @@
+.text {
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .otherContent {
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 8px;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 350px ;
+    width: 250px;
+    padding: 20px 35px;
+    background:rgb(255, 248, 243);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+     color: #000;
+}
+.card:hover{
+    border: solid #221318;
+}
+.card i{
+    height: 15px;
+    width: 15px;
+    color: #f9004d;
+}
+.card h5{
+    color: rgb(231, 58, 58);
+    font-size: 20px;
+}  
+.p{
+  text-align:center;
+}
+.para p{
+  color: rgb(240, 93, 93);
+  font-size: 15px;
+}
+.para a{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+.card:hover{
+  border: solid #221318;
+}
+.card i{
+  height: 15px;
+  width: 15px;
+  color: #f9004d;
+}
+
+
+.cards{
+  height: 350px ;
+  width: 250px;
+  padding: 20px 35px;
+  background:rgb(255, 248, 243);
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card:hover{
+  border: solid #221318;
+}
