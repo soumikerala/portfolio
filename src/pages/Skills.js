@@ -38,8 +38,18 @@ function Skills() {
 
           </div>
           
+          
+          </div>
+          <div className="box">
+            <div class="card">
+            <i class="fa-solid fa-bowl-food"></i>
+            <h5>REACT JS</h5>
+            <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages.</p>
+
           </div>
           
+          
+          </div>
 
         </div>
         
